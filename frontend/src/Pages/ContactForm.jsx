@@ -16,7 +16,7 @@ export const ContactUs = () => {
         // Send email to the admin
         emailjs
             .send('service_pifdyyh', 'template_8e0ov6p', {
-                user_email: 'skmirajulislam181@gmail.com', // Admin email
+                user_email: 'sumitrawat@gmail.com', // Admin email
                 message: `Query from ${clientName}: ${form.current['message'].value}`,
             }, { publicKey: 'W7JLonZhnMYOR4Vb7' })
             .then(() => {
